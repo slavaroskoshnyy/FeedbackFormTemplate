@@ -4,7 +4,7 @@ describe("feedback form submission", () => {
   const name = "Vyacheslav";
   const email = "test@test.ru";
   const tel = 89999999999;
-  const message = "Для первого раза пойдет?";
+  const message = "Для первого раза норм?";
 
   it("feedback form submission", () => {
     cy.visit("/");
